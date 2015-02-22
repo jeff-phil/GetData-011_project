@@ -98,6 +98,6 @@ allData <- allData[ , c(2, 1, 3:68)]
 tidyData <- ddply(allData, .(SubjectId, Activity), function(x) colMeans(x[, 3:68]))
 
 # Write tidyData to file
-write.table(tidyData, "tidyData.csv", sep = ",", col.names = TRUE, row.names = FALSE)
+write.table(tidyData, "tidyData.txt", sep = ",", col.names = TRUE, row.names = FALSE)
 
 
