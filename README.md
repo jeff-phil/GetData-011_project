@@ -8,7 +8,7 @@ on the waist of participants. Read more about the orginal study here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-It run\_analysis.R requires the _plyr_ R package in order to run.  The script
+The script run\_analysis.R requires the _plyr_ R package in order to run.  The script
 will look for a directory in the working directory named _UCI HAR Dataset_.  If
 not found, then the data will be downloaded from:
 
