@@ -75,6 +75,9 @@ been set where Mean or Std in the last part indicate whether the measurement is
 a Mean or Standard Deviation based on the original data having _mean()_ or _std()_
 in the feature name.  
 
+Units: Using its embedded accelerometer and gyroscope, they captured 3-axial linear
+acceleration and 3-axial angular velocity at a constant rate of 50Hz.
+
 The list of measurements are (please see the features_info.txt for more detailed
 discussion of measurements):
 
