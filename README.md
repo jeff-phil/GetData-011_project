@@ -35,3 +35,6 @@ The transformations completed are as follows completed using the run_analysis.R:
 5. From the data set in step 4, creates a second, independent tidy data set with
    the average of each variable for each activity and each subject.
 
+After the script is run, the file "tidyData.txt" will be written to the working
+directory.  It is a CSV file.
+
